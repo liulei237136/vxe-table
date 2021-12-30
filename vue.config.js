@@ -4,6 +4,9 @@ function resolve (dir) {
   return path.join(__dirname, '.', dir)
 }
 
+
+
+
 process.env.VUE_APP_VXE_TABLE_ENV = 'development'
 
 module.exports = {
